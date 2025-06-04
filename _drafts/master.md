@@ -4,29 +4,27 @@ author: Arashe
 categories: novel
 permalink: /:categories/:title
 title: 
+date: 
 image: 
 download: 
 tags: 
 ---
 
-
 <p align="center">
-<img src="{{ page.image }}" alt="p28" width="200" />
+<img src="{{ page.image }}" alt="Cover" width="200" />
 </p>
 
-#### Translator   : 
+#### Translator   :
 
-#### Author  : 
+#### Author  :
 
 #### Chapter :  Chapter
 
 #### Status  : Completed
 
-#### Other Names    : 
+#### Other Names    :
 
 ## Description
-
-
 
 <button>
     <a href="{{ page.download }}" download>Download ePub</a>

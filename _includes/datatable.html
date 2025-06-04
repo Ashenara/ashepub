@@ -1,0 +1,23 @@
+<!-- start custom head snippets, customize with your own _includes/release.html file -->
+
+<!--The lines below help include JQuery DataTables into Markdown files-->
+{%- if page.datatable == true -%}
+<div>
+  <script src="/assets/js/jquery.min.js"></script> <!--Add JQuery-->
+  <link rel="stylesheet" href="/assets/css/dataTables.css"> <!--add style sheet-->
+  <script src="/assets/js/dataTables.js"></script> <!--add dataTables-->
+  <script src="/assets/js/moment.min.js"></script>
+  <script src="/assets/js/datetime-moment.js"></script>
+  <script>
+    $(document).ready( function () {
+      $.fn.dataTable.moment( 'MMM D, YY' );
+      // Initialize the DataTable
+      new DataTable('#releases', {
+        ordering : false, // Disable ordering
+      });
+    });
+  </script>
+</div>
+{% endif %}
+
+<!-- end custom head snippets -->

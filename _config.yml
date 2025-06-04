@@ -1,11 +1,8 @@
-title: Arashe
+title: Epub Novels
 logo: /assets/img/logo.png
-description: ePub Light Novel
+description: A collection of ePub novels available for download.
 show_downloads: true
-google_analytics: G-7HTQK96HMC
+google_analytics: 
 theme: jekyll-theme-minimal
-domain: ashepub.netlify.app
-url: https://ashepub.netlify.app/
-baseurl: ""
 plugins:
   - jekyll-sitemap
