@@ -3,7 +3,7 @@ logo: /assets/img/logo.png
 description: A collection of ePub novels available for download.
 show_downloads: true
 google_analytics: 
-baseurl: https://ashenara.github.io/ashepub 
+baseurl: "https://ashenara.github.io/ashepub"
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-sitemap
