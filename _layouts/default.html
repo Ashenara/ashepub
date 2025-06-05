@@ -35,6 +35,7 @@
             <h3 style="text-align: center;"><a href="https://www.arashe.com">Check Full Site Here</a></h3>
         
       </header>
+      
       <section>
 
       {{ content }}
@@ -45,7 +46,11 @@
       </footer>
     </div>
 
+    <label class="toggle-switch toggle-top-right">
+      <input type="checkbox" id="theme-toggle">
+      <span class="slider"></span>
+    </label>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    
+    <script src="/assets/js/toggle.js"></script>
   </body>
 </html>
