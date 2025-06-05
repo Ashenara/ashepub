@@ -2,7 +2,7 @@
 layout: post
 author: Arashe
 categories: novel
-permalink: /ashepub/:categories/:title
+permalink: /:categories/:title
 title: A Will Eternal
 date: 2025-06-02 10:02:00
 image: https://dl.dropbox.com/scl/fi/k01jh17cuj3mt9ks9qtnz/p1.jpg?rlkey=ejf9qjdlb9ty3p9xvx7nzhgj4&dl=0
