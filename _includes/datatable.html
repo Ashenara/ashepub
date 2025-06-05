@@ -2,8 +2,6 @@
 
 <!--The lines below help include JQuery DataTables into Markdown files-->
 {%- if page.datatable == true -%}
-<div>
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> <!--Add JQuery-->
   <link href="https://cdn.datatables.net/v/dt/dt-2.3.1/datatables.min.css" rel="stylesheet" integrity="sha384-euvbLDizNhjdB+SK/Ai+GY3WCCHaDJM1tnnh2IqvUY9zjhlo21JkywSg8X5hlMY8" crossorigin="anonymous">
   <script src="https://cdn.datatables.net/v/dt/dt-2.3.1/datatables.min.js" integrity="sha384-1LmfH5u7+DRwux/q4YYqAi+OjwkIVYJdPQijPS9S28cj8AeFnpNCkSVlZgvRdOzb" crossorigin="anonymous"></script>
   <script src="https://momentjs.com/downloads/moment.js"></script>
@@ -17,7 +15,6 @@
       });
     });
   </script>
-</div>
-{% endif %}
+  {% endif %}
 
 <!-- end custom head snippets -->

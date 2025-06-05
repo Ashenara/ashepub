@@ -1,10 +1,24 @@
 <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
-
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> <!--Add JQuery-->
 <!-- Setup Google Analytics -->
 {% include head-custom-google-analytics.html %}
 {% include datatable.html %}
 {% include darkmode.html %}
 
+<!-- Load Turndown and Showdown for Markdown conversion -->
+<!-- Turndown is used to convert HTML to Markdown, and Showdown is used to convert Markdown to HTML -->
+<!-- These libraries are useful for rendering Markdown content in the browser -->
+<script src="https://unpkg.com/turndown/dist/turndown.min.js"></script>
+<script src="https://unpkg.com/turndown-plugin-gfm/dist/turndown-plugin-gfm.js"></script>
+<script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
+<script src="/assets/js/mdhtmlform.js"></script>
+<script>
+$(function() {
+  if (typeof MdHtmlForm !== "undefined" && $("textarea.mdhtmlform-md").length > 0) {
+    new MdHtmlForm($("textarea.mdhtmlform-md"));
+  }
+});
+</script>
 
 <!-- You can set your favicon here -->
 <!-- link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}" -->
