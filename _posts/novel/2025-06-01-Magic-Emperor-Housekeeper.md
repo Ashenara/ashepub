@@ -2,7 +2,7 @@
 layout: post
 author: Arashe
 categories: novel
-permalink: /:categories/:title
+permalink: ashepub/:categories/:title
 title: Magic Emperor Housekeeper
 date: 2025-06-01 10:01:00
 image: https://dl.dropbox.com/scl/fi/i9p5t3wicu2brp50131t5/p28.jpg?rlkey=qroyzkt199t70x57ijo67fd6i&dl=0
