@@ -10,7 +10,7 @@ Please donate so i can have much more time for this, Thank you.
 
 <p align="center">
 <a href="https://paypal.me/ashenara?country.x=ID&locale.x=en_US">
-    <img src="/assets/img/paypal.png" alt="PAYPAL" width="160" />
+    <img src="/ashepub/assets/img/paypal.png" alt="PAYPAL" width="160" />
     </a>
 </p>  
 
